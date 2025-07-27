@@ -1,0 +1,131 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeEach",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "registry",
+				"outputs": [
+					{
+						"internalType": "contract PublicResourceRegistry",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testCreateItemAndVerify",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testCreateLotAndLocation",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testMultipleNotes",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testProcessLifecycleWithItems",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testResourceCounts",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testResourceNotes",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testServiceLifecycle",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/PublicResourceRegistry_test.sol": "PublicResourceRegistryTest"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PublicResourceRegistry.sol": {
+			"keccak256": "0xbebe9d712d7ba31f2aa5913e103bf901a64f78bf11c6a92f75222a9b7505c9d1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b398f21d7256ceee59468eebbbd02cf22b1db4e75be89aa562c58da15bedbfcc",
+				"dweb:/ipfs/QmSCu64M8UhPt99tkdCVHFNGS1S72wenbYCDJZjLfV6AGt"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		},
+		"tests/PublicResourceRegistry_test.sol": {
+			"keccak256": "0x0046c2e2f8932d251490d3a396d2c88f7fd9dc974392704d773ab7d1bb00bed9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://34179e8638e3528c038339affeeedb1de1f3815d3b234c6919cd6e12e1529c75",
+				"dweb:/ipfs/QmQQHTAXrX6t1i4tD1PcJJRkLEo6SB7bvZ5uSydhFJuLbZ"
+			]
+		}
+	},
+	"version": 1
+}
