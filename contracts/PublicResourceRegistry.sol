@@ -2,9 +2,12 @@
 pragma solidity ^0.8.0;
 
 contract PublicResourceRegistry {
-    uint256 public constant MAX_ITEMS_PER_PROCESS = 50;
+    // Para processos industriais complexos (ex: manufatura de automóveis)
+    uint256 public constant MAX_ITEMS_PER_PROCESS = 10_000;
+    // Para itens com muitos componentes (ex: aeronaves, sistemas eletrônicos)
+    uint256 public constant MAX_COMPONENTS_PER_ITEM = 1_000;
+    
     uint256 public constant MAX_STRING_LENGTH = 128;
-    uint256 public constant MAX_COMPONENTS_PER_ITEM = 50;
 
     enum ResourceType { Item, Lot, Service, Note, Process, Location }
     enum ItemStatus { Available, InUse }
