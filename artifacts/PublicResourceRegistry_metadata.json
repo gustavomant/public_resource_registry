@@ -259,7 +259,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "cost",
+						"name": "cost_in_cents",
 						"type": "uint256"
 					}
 				],
@@ -336,7 +336,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "cost",
+						"name": "cost_in_cents",
 						"type": "uint256"
 					},
 					{
@@ -738,7 +738,7 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "cost",
+						"name": "cost_in_cents",
 						"type": "uint256"
 					},
 					{
@@ -1086,7 +1086,7 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "cost",
+						"name": "cost_in_cents",
 						"type": "uint256"
 					},
 					{
@@ -1188,11 +1188,11 @@
 	},
 	"sources": {
 		"contracts/PublicResourceRegistry.sol": {
-			"keccak256": "0xefe8b78e3e26d6c476ef9ac4fb025cb0e2448eed6eb042a3f7902c3e5238a54f",
+			"keccak256": "0xecb8f35a48337a5536bf5ed2663b3968f89aeb9ed393d9077c6e921939dc2266",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://361562c014a103832309e78863ae88e02a3ba2a9241007be7bee22a7f78a0fe7",
-				"dweb:/ipfs/QmRDVcNtbe3R8T5jw3At71UHAr1mpVBCvGuPz9LcZCkimR"
+				"bzz-raw://d9588855ab3703b2ac67b10ca2fdb2aa8108be25dd8cff9dc6aca4b2c4b811e9",
+				"dweb:/ipfs/QmVNqnGYgWRHvJr4topqFUdydWUWVdvMHSz2rYQBSGmqkc"
 			]
 		}
 	},

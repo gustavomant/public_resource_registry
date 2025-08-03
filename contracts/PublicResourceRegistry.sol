@@ -29,14 +29,14 @@ contract PublicResourceRegistry {
     
     struct Lot {
         uint256 id;
-        uint256 cost;
+        uint256 cost_in_cents;
         uint256 timestamp;
         address createdBy;
     }
     
     struct Service {
         uint256 id;
-        uint256 cost;
+        uint256 cost_in_cents;
         ServiceStatus status;
         string responsibleParty;
         uint256 expectedStart;
@@ -166,11 +166,11 @@ contract PublicResourceRegistry {
         return id;
     }
 
-    function createLot(uint256 cost) external hasPermission(ResourceType.Lot) returns (uint256) {
+    function createLot(uint256 cost_in_cents) external hasPermission(ResourceType.Lot) returns (uint256) {
         uint256 id = nextLotId++;
         lots[id] = Lot({
             id: id,
-            cost: cost,
+            cost_in_cents: cost_in_cents,
             timestamp: block.timestamp,
             createdBy: msg.sender
         });
@@ -178,7 +178,7 @@ contract PublicResourceRegistry {
     }
 
     function createService(
-        uint256 cost,
+        uint256 cost_in_cents,
         string memory responsibleParty,
         uint256 expectedStart,
         uint256 expectedEnd
@@ -186,7 +186,7 @@ contract PublicResourceRegistry {
         uint256 id = nextServiceId++;
         services[id] = Service({
             id: id,
-            cost: cost,
+            cost_in_cents: cost_in_cents,
             status: ServiceStatus.Requested,
             responsibleParty: responsibleParty,
             expectedStart: expectedStart,
